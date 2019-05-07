@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from django.conf import settings
-from django.conf.urls import url
+from django.conf.urls import url, include
 from django.conf.urls.i18n import i18n_patterns
 from django.contrib import admin
-from django.urls import include
 from django.views.i18n import JavaScriptCatalog
 from django.views.static import serve
 
